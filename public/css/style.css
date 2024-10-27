@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+#search-bar {
+    width: 80%;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+#video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2em;
+}
+.video-item {
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.video-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+.video-thumbnail {
+    width: 100%;
+    height: auto;
+}
